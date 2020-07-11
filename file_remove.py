@@ -1,4 +1,4 @@
-#python file_remove.py num  file_num.jpgの中でnumの倍数のfileを削除
+#python file_remove.py num
 import os
 import re
 import sys
