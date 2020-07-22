@@ -1,0 +1,48 @@
+{
+    "regions": [
+        {
+            "boundingBox": {
+                "width": 500, 
+                "top": 0, 
+                "left": 0, 
+                "height": 500
+            }, 
+            "points": [
+                {
+                    "y": 0, 
+                    "x": 0
+                }, 
+                {
+                    "y": 0, 
+                    "x": 500
+                }, 
+                {
+                    "y": 500, 
+                    "x": 500
+                }, 
+                {
+                    "y": 500, 
+                    "x": 0
+                }
+            ], 
+            "type": "RECTANGLE", 
+            "id": "3cGj2kOB1", 
+            "tags": [
+                "pancake"
+            ]
+        }
+    ], 
+    "version": "2.2.0", 
+    "asset": {
+        "name": "img_16.jpg", 
+        "format": "jpg", 
+        "state": 2, 
+        "path": "file:/Users/amako/Documents/Python/apps/bing/cake/img_16.jpg", 
+        "type": 1, 
+        "id": "XTqm5j6ICUDK1MMMZPdiWAlB1mHVGwiE", 
+        "size": {
+            "width": 500, 
+            "height": 500
+        }
+    }
+}

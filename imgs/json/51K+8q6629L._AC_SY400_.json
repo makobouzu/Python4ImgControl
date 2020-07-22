@@ -1,0 +1,48 @@
+{
+    "regions": [
+        {
+            "boundingBox": {
+                "width": 285, 
+                "top": 0, 
+                "left": 0, 
+                "height": 400
+            }, 
+            "points": [
+                {
+                    "y": 0, 
+                    "x": 0
+                }, 
+                {
+                    "y": 0, 
+                    "x": 285
+                }, 
+                {
+                    "y": 400, 
+                    "x": 285
+                }, 
+                {
+                    "y": 400, 
+                    "x": 0
+                }
+            ], 
+            "type": "RECTANGLE", 
+            "id": "cVfLwDmDX", 
+            "tags": [
+                "test"
+            ]
+        }
+    ], 
+    "version": "2.2.0", 
+    "asset": {
+        "name": "51K+8q6629L._AC_SY400_.jpg", 
+        "format": "jpg", 
+        "state": 2, 
+        "path": "file:/Users/amako/Documents/Python/apps/imgs/51K+8q6629L._AC_SY400_.jpg", 
+        "type": 1, 
+        "id": "wBlkNMcXLUWje01x362S9QjRITomJZrz", 
+        "size": {
+            "width": 285, 
+            "height": 400
+        }
+    }
+}
