@@ -14,8 +14,12 @@ def down_scale_image(img, scale):
 
 def crop_center(img, crop):
     img_width, img_height = img.size
-    area = ((img_width - crop)/2, (img_height - crop)/2, (img_width + crop)/2, (img_height + crop)/2)
-    return img.crop(area)
+    if img_width > img_height:
+        area = (0, (img_height - crop)/2, img_width, (img_height + crop)/2)
+        return img.crop(area)
+    elif img_height > img_width:
+        area = ((img_width - crop)/2, 0, (img_height + crop)/2, img_height)
+        return img.crop(area)
 
 def rotate(img, angle):
     image = img.rotate(angle)
@@ -28,5 +32,5 @@ if __name__ == '__main__':
         if file_name.endswith('.jpg'):
             img = Image.open(child_dir + file_name)
             out = down_scale_image(img, int(args[2]))
-            out = crop_center(img, int(args[2]))
+            out = crop_center(img, 0)
             out.save(child_dir + file_name, quality=95)
